@@ -1,9 +1,5 @@
 /* General Styling Start */
 
-/* Importing the poppins font  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 * {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -46,7 +42,6 @@ nav {
     line-height: 75px;
 }
 
-/* rgb(47, 0, 255); */
 .logo span,
 .navbar ul li a:hover,
 span.link a,
@@ -231,7 +226,8 @@ nav ul li {
 .about {
     width: 100%;
     background-color:white;
-    
+    min-height: 55vh;
+    margin-top: 20px;
 }
 
 .aboutSection {
@@ -244,8 +240,6 @@ nav ul li {
 .aboutSection .halfRow {
     width: 48%;
     background-color: #ffffff;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border: none;
     padding: 20px;
 }
@@ -336,7 +330,6 @@ nav ul li {
 /* Competitions Section Styling Start*/
 .Competitions {
     width: 100%;
-    /* background: linear-gradient(159.13deg, #575757 51.38%, #1a1919 125.8%); */
     background: white;
 }
 
@@ -453,7 +446,6 @@ nav ul li {
     object-fit: cover; 
     border-top-left-radius: 1rem; 
     border-top-right-radius: 1rem;
-    /* border-bottom: 0.5px solid #90949c; */
     box-shadow: 0 0.5px 0 rgba(144, 148, 156, 1);
 }
 
@@ -770,7 +762,7 @@ footer p {
   ::-webkit-scrollbar-thumb:hover {
     background: #3b3b4f;
   }
-  
+/********** Scrollbar styling *************/
 
 
   @media only screen and (max-width: 767px) {
