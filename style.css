@@ -252,12 +252,12 @@ nav {
 
     .aboutSection {
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px;
 
         .halfRow {
             background-color: var(--secondary-color);
             border: none;
-            padding: 20px;
+            padding: 5px;
 
             .title {
                 margin-bottom: 20px;
